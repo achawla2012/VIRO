@@ -1,0 +1,578 @@
+Sleeping : 2.39700378706  seconds!
+My neighbors:  ['localhost:5001', 'localhost:5003']
+VEIL_SWITCH: [localhost:5002|001]  is now listening at port:  5002
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 1
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2   --- E M P T Y --- 
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 2
+VEIL_SWITCH: [localhost:5002|001] Quering to reach Bucket: 2 to rdv: 000
+Type:  RDV_QUERY Source:  001 Destination:  000 Payload:  010
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2   --- E M P T Y --- 
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5002|001] Received an incoming connection from  ('127.0.0.1', 46549)
+Received packet:  000108000604300000000000000000010000000200000000
+Type:  RDV_REPLY Source:  000 Destination:  001 Payload:  010
+VEIL_SWITCH: [localhost:5002|001] Processing packet
+Type:  RDV_REPLY Source:  000 Destination:  001 Payload:  010
+ I got rdv_rply with  1 Gateways
+In rdv_reply packettype -- Total Gateways : 1
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Type:  RDV_PUBLISH Source:  001 Destination:  000 Payload:  101
+
+	----> Routing Table at : 001 | localhost:5002  <----
+Bucket : 1 Nexthop: 000 Gateway: 001 Prefix: 000 Default : Yes
+Bucket : 2 Nexthop: 000 Gateway: 000 Prefix: 01* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 001 Prefix: 1** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5002|001] Starting Round # 3
+VEIL_SWITCH: [localhost:5002|001] Publishing my neighbor 101 to rdv: 000
+Typ

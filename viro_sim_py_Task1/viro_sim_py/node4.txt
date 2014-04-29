@@ -1,0 +1,1422 @@
+Sleeping : 0.555058861807  seconds!
+My neighbors:  ['localhost:5001', 'localhost:5003']
+VEIL_SWITCH: [localhost:5004|100]  is now listening at port:  5004
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 1
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2   --- E M P T Y --- 
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42495)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 2
+VEIL_SWITCH: [localhost:5004|100] Quering to reach Bucket: 2 to rdv: 100
+Type:  RDV_QUERY Source:  100 Destination:  100 Payload:  010
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_QUERY Source:  100 Destination:  100 Payload:  010
+ ***********************create RDV_REPLY ******************** Maximum Gateway information : 1
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_REPLY Source:  100 Destination:  100 Payload:  010
+ I got rdv_rply with  1 Gateways
+In rdv_reply packettype -- Total Gateways : 1
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42497)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42498)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42502)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42503)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42505)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42506)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42508)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42509)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42511)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42512)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42515)
+Received packet:  0001080006042000000000060000000400000003
+Type:  RDV_QUERY Source:  110 Destination:  100 Payload:  011
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_QUERY Source:  110 Destination:  100 Payload:  011
+ ***********************create RDV_REPLY ******************** Maximum Gateway information : 1
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42518)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42519)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42521)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42522)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42524)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42525)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42527)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42528)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42530)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42531)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42533)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42534)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42536)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42537)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42539)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42540)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42542)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42543)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42545)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42546)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42548)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42549)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42551)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42552)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42554)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42555)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42557)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42558)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42560)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42561)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42563)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42564)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42566)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42567)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42569)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42570)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42572)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42573)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42575)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42576)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42578)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42579)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42581)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42582)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42584)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42585)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42587)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42588)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42590)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42591)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42593)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42594)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42596)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42597)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42599)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42600)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42602)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42603)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42605)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42606)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42608)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42609)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42611)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42612)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42614)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42615)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42617)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42618)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42620)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42621)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42623)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42624)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42626)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42627)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42629)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42630)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42632)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42633)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42635)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42636)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42638)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42639)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42641)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42642)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42644)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42645)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42647)
+Received packet:  0001080006041000000000050000000400000006
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  110
+-----------------------------------------------------
+
+VEIL_SWITCH: [localhost:5004|100] Received an incoming connection from  ('127.0.0.1', 42648)
+Received packet:  0001080006041000000000050000000400000001
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  101 Destination:  100 Payload:  001
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5004|100] Starting Round # 3
+VEIL_SWITCH: [localhost:5004|100] Publishing my neighbor 000 to rdv: 100
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+VEIL_SWITCH: [localhost:5004|100] Processing packet
+Type:  RDV_PUBLISH Source:  100 Destination:  100 Payload:  000
+
+	----> Routing Table at : 100 | localhost:5004  <----
+Bucket : 1 Nexthop: 101 Gateway: 100 Prefix: 101 Default : Yes
+Bucket : 2 Nexthop: 101 Gateway: 101 Prefix: 11* Default : Yes
+Bucket : 3 Nexthop: 000 Gateway: 100 Prefix: 0** Default : Yes
+RDV STORE:  {2: [['101', '110']], 3: [['101', '001'], ['100', '000']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+
+VEIL_SWITCH: [localhost:5004|100] Receiv

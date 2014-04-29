@@ -1,0 +1,545 @@
+Sleeping : 4.80516470133  seconds!
+My neighbors:  ['localhost:5003']
+VEIL_SWITCH: [localhost:5006|110]  is now listening at port:  5006
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 1
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3   --- E M P T Y --- 
+RDV STORE:  {}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+-----------------------------------------------------
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 2
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3   --- E M P T Y --- 
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Quering to reach Bucket: 3 to rdv: 100
+Type:  RDV_QUERY Source:  110 Destination:  100 Payload:  011
+
+VEIL_SWITCH: [localhost:5006|110] Received an incoming connection from  ('127.0.0.1', 33283)
+Received packet:  00010800060430000000000400000006000000030000000500000004
+Type:  RDV_REPLY Source:  100 Destination:  110 Payload:  011
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_REPLY Source:  100 Destination:  110 Payload:  011
+ I got rdv_rply with  2 Gateways
+In rdv_reply packettype -- Total Gateways : 2
+-----------------------------------------------------
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Default : No
+RDV STORE:  {2: [['110', '101']]}
+
+ --  --  --  --  -- --  --  --  --  -- --  --  --  --  -- 
+
+VEIL_SWITCH: [localhost:5006|110] Starting Round # 3
+VEIL_SWITCH: [localhost:5006|110] Publishing my neighbor 101 to rdv: 110
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+VEIL_SWITCH: [localhost:5006|110] Processing packet
+Type:  RDV_PUBLISH Source:  110 Destination:  110 Payload:  101
+
+	----> Routing Table at : 110 | localhost:5006  <----
+Bucket : 1   --- E M P T Y --- 
+Bucket : 2 Nexthop: 101 Gateway: 110 Prefix: 10* Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 101 Prefix: 0** Default : Yes
+Bucket : 3 Nexthop: 101 Gateway: 100 Prefix: 0** Def
